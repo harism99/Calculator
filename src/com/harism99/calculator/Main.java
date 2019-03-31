@@ -18,7 +18,7 @@ public class Main {
         Multiplication mult = new Multiplication();
         Division div = new Division();
 
-        System.out.println("What you wish to do?  \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division \n \n Enter your decision number =");
+        System.out.print("What you wish to do?  \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division \n \n Enter your decision number =");
         n3 = numbers.nextInt();
 
         switch (n3){
@@ -27,10 +27,13 @@ public class Main {
                 break;
             case 2:
                 sub.sub(n1,n2);
+                break;
             case 3:
                 mult.mult(n1,n2);
+                break;
             case 4:
                 div.div(n1,n2);
+                break;
             default:
                 System.out.println("You have entered an invalid number.");
         }
