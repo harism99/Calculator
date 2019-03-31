@@ -18,11 +18,13 @@ public class Main {
         /*Addition1 add = new Addition1();
         Subtraction1 sub = new Subtraction1();*/
 
-        Multiplication1 mult = new Multiplication1();
-        Division1 div = new Division1();
+        /*Multiplication1 mult = new Multiplication1();
+        Division1 div = new Division1();*/
 
         Addition add = new Addition();
         Subtraction sub = new Subtraction();
+        com.harism99.calculator.mm.Multiplication mult = new com.harism99.calculator.mm.Multiplication();
+        com.harism99.calculator.mm.Division div = new com.harism99.calculator.mm.Division();
 
         System.out.print("What you wish to do?  \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division \n \n Enter your decision number =");
         n3 = numbers.nextInt();
@@ -62,7 +64,7 @@ class Subtraction1 {
     }
 }*/
 
-class Multiplication1 {
+/*class Multiplication1 {
     public void mult(int x, int y) {
         int z;
         z = x * y;
@@ -78,4 +80,4 @@ class Division1 {
         System.out.println("Division of " + x + " and " + y + " is " + z);
         System.out.println("Reminder =" + a);
     }
-}
+}*/
