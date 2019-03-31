@@ -67,6 +67,6 @@ class Division{
         z=x/y;
         a=x%y;
         System.out.println("Division of "+x+" and "+y+" is "+z);
-        System.out.println("Reminder ="+a;
+        System.out.println("Reminder ="+a);
     }
 }
