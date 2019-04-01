@@ -1,12 +1,16 @@
 package com.harism99.calculator;
 
 import java.util.Scanner;
+import com.harism99.calculator.mm.Multiplication;
+import com.harism99.calculator.mm.Division;
+
 
 public class Main {
 
     public static void main(String[] args) {
         int n1, n2, n3;
 
+        System.out.println("########################### \n## Welcome to Calculator ## \n###########################" );
         Scanner numbers = new Scanner(System.in);
 
         System.out.print("Enter the First number =");
@@ -23,8 +27,8 @@ public class Main {
 
         Addition add = new Addition();
         Subtraction sub = new Subtraction();
-        com.harism99.calculator.mm.Multiplication mult = new com.harism99.calculator.mm.Multiplication();
-        com.harism99.calculator.mm.Division div = new com.harism99.calculator.mm.Division();
+        Multiplication mult = new Multiplication();
+        Division div = new Division();
 
         System.out.print("What you wish to do?  \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division \n \n Enter your decision number =");
         n3 = numbers.nextInt();
